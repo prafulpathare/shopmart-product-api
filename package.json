@@ -1,0 +1,18 @@
+{
+  "name": "apiproduct",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Praful Pathare",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "express-fileupload": "^1.2.0"
+  }
+}
