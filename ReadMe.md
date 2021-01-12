@@ -1,3 +1,4 @@
+## Shopmart Products API
 #### Procedure
 1. Start MongoDB
 2. Run App 
@@ -5,8 +6,7 @@
 	$ node app
 ```
 
-## Shopmart Products API
-
+#### APIs
 - Products
 	- Add
 	- Delete
