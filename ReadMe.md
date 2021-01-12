@@ -1,7 +1,8 @@
-1.  Start MongoDB
-2. Run App
-```js
-$ node app
+#### Procedure
+1. Start MongoDB
+2. Run App 
+```php
+	$ node app
 ```
 
 ## Shopmart Products API
