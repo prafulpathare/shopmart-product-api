@@ -1,16 +1,15 @@
 1.  Start MongoDB
 2. Run App
 ```js
-node app
+$ node app
 ```
 
-# Shopmart Products API
+## Shopmart Products API
 
-```bash
-	$ npm start
-```
-
-- Products /
-	- Listing
-	- Fetching
-	- Sorting
+- Products
+	- Add Product
+	- Search Product
+		- Sort
+			- Popularity
+			- Relevance
+			- Price
