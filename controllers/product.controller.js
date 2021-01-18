@@ -68,6 +68,26 @@ exports.findOne = (req, res) => {
     });
 }
 
+exports.supplierProducts = (req, res) => {
+    var user_id = req.params.user_id;
+    console.log(req.params.user_id)
+
+    mongoClient.connect(config.MONGO_URI, { useUnifiedTopology: true }, function (err, db) {
+        if (err) throw err;
+        var query = { user_id: parseInt(user_id)  };
+
+        db.db("shopmart").collection("products")
+            .find(query)
+            .toArray(function (err, result) {
+                if (err) throw err;
+                db.close();
+                res.status(200).json({
+                    // products: random.shuffle(result),
+                    products: result
+                });
+            });
+    });
+}
 
 
 
